@@ -1,0 +1,19 @@
+[project]
+name = "expense-tracker-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AasthaRai0", email = "aastharai4214@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=4.1.2",
+]
+
+[project.scripts]
+expense-tracker-mcp-server = "expense_tracker_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
